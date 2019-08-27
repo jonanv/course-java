@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Prueba {
     public static void main(String[] args) {
         byte numero1 = (byte) 27;
@@ -14,5 +16,17 @@ public class Prueba {
         System.out.println("Retroceso: \b" + nombre);
         System.out.println("Retorno de carro: \r" + nombre);
         System.out.println("Comilla simple: \'" + nombre + "\'");
+
+        // Scanner scanner = new Scanner(System.in);
+        // String consola = scanner.nextLine();
+        // System.out.println("Consola: " + consola);
+
+        // Scanner scanner = new Scanner(System.in);
+
+        // System.out.println("Ingresar libro: ");
+        // String libro = scanner.nextLine();
+        // System.out.println("Ingresar autor: ");
+        // String autor = scanner.nextLine();
+        // System.out.println(libro + " fue escrito por " + autor);
     }
 }
