@@ -28,5 +28,6 @@ public class Prueba {
         // System.out.println("Ingresar autor: ");
         // String autor = scanner.nextLine();
         // System.out.println(libro + " fue escrito por " + autor);
+
     }
 }
