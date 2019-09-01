@@ -29,5 +29,11 @@ public class Prueba {
         // String autor = scanner.nextLine();
         // System.out.println(libro + " fue escrito por " + autor);
 
+        byte b1 = 10;
+        System.out.println("Byte decimal: b1 = " + b1);
+        byte b2 = 0xa;
+        System.out.println("Byte hexadecimal: b2 = " + b2);
+        byte b3 = 012;
+        System.out.println("Byte ocatal: b3 = " + b3);
     }
 }
