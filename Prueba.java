@@ -35,5 +35,7 @@ public class Prueba {
         System.out.println("Byte hexadecimal: b2 = " + b2);
         byte b3 = 012;
         System.out.println("Byte ocatal: b3 = " + b3);
+        byte b4 = 0b1010;
+        System.out.println("Byte binario: b4 = " + b4);
     }
 }
