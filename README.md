@@ -1,2 +1,2 @@
-# java-curse
+# course-java
 Curse of Java
