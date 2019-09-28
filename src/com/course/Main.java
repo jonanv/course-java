@@ -17,5 +17,9 @@ public class Main {
         System.out.println("Comilla simple: \'" + nombre + "\'");
         System.out.println("Comilla simple: '" + nombre + "'");
         System.out.println("Comilla double: \"" + nombre + "\"");
+
+        System.out.println("Saludos");
+        System.out.print("Dios");
+        System.out.println("Saludos nuevamente");
     }
 }
