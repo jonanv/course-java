@@ -123,5 +123,17 @@ public class Main {
         System.out.println();
 
         /*--------------------------------------------------------------*/
+
+        //Convertir un String a tipo int
+        int edad = Integer.parseInt("20");
+        System.out.println("edad = " + edad);
+        
+        //Convertir String a tipo double
+        double valorPI = Double.parseDouble("3.1416");
+        System.out.println("valorPI = " + valorPI);
+
+        //Retorna el caracter 0
+        char c = "hola".charAt(0);
+        System.out.println("c = " + c);
     }
 }
