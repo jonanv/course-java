@@ -89,6 +89,8 @@ public class Main {
         System.out.println("boolean: " + booleanVar);
         System.out.println();
 
+        /*--------------------------------------------------------------*/
+        
         int numeroDecimal = 10;
         System.out.println("numeroDecimal = " + numeroDecimal);
 
@@ -100,5 +102,20 @@ public class Main {
 
         int numeroBinario = 0b1010;
         System.out.println("numeroBinario = " + numeroBinario);
+        System.out.println();
+
+        /*--------------------------------------------------------------*/
+        
+        char varChar = '\u0021';
+        System.out.println("varChar = " + varChar);
+        
+        char varCharDecimal = 33;
+        System.out.println("varCharDecimal = " + varCharDecimal);
+        
+        char varCharSimbolo = '!';
+        System.out.println("varCharSimbolo = " + varCharSimbolo);
+        System.out.println();
+
+        /*--------------------------------------------------------------*/
     }
 }
