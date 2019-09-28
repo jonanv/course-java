@@ -1,5 +1,7 @@
 package com.course;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -21,5 +23,10 @@ public class Main {
         System.out.println("Saludos");
         System.out.print("Dios");
         System.out.println("Saludos nuevamente");
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese el nombre de usuario: ");
+        String usuario = scanner.nextLine();
+        System.out.println(usuario);
     }
 }
