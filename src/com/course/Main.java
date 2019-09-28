@@ -150,6 +150,8 @@ public class Main {
         String edadTexto = String.valueOf(25);
         System.out.println("edadTexto = " + edadTexto);
 
-
+        short numShort = 10;
+        byte numByte = (byte) numShort;
+        System.out.println("numByte = " + numByte);
     }
 }
