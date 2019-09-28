@@ -85,8 +85,14 @@ public class Main {
         System.out.println("valor máximo tipo char: " + Character.MAX_VALUE);
         System.out.println();
 
-        boolean booleanVar = false;
-        System.out.println("boolean: " + booleanVar);
+        boolean booleanVar = true;
+        System.out.println("true tipo boolean: " + Boolean.TRUE);
+        System.out.println("false tipo boolean: " + Boolean.FALSE);
+
+        if (booleanVar)
+            System.out.println("El valor es verdadero");
+        else
+            System.out.println("El valor es falso");
         System.out.println();
 
         /*--------------------------------------------------------------*/
