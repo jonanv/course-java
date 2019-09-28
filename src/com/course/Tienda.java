@@ -10,18 +10,18 @@ public class Tienda {
         String nombre = scanner.nextLine();
 
         System.out.println("Proporciona el id: ");
-        int id = scanner.nextInt();
+        int id = Integer.parseInt(scanner.nextLine());
 
         System.out.println("Proporciona el precio: ");
-        double precio = scanner.nextDouble();
+        double precio = Double.parseDouble(scanner.nextLine());
 
         System.out.println("Proporciona el simbolo: ");
         char simbolo = scanner.nextLine().charAt(0);
 
-        System.out.println("Proprociona el envío gratuito: ");
-        double envioGratuito = scanner.nextDouble();
+        System.out.println("Proporciona el envío gratuito: ");
+        boolean envioGratuito = Boolean.parseBoolean(scanner.nextLine());
 
-        System.out.println(nombre + " " + id);
+        System.out.println(nombre + " C.C." + id);
         System.out.println("Precio: " + simbolo + precio);
         System.out.println("Envio gratuito: " + envioGratuito);
     }

@@ -136,7 +136,7 @@ public class Main {
         char c = "hola".charAt(0);
         System.out.println("c = " + c);
 
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
 
         System.out.println("edad: ");
         edad = Integer.parseInt(scanner.nextLine());
@@ -148,7 +148,7 @@ public class Main {
 
         //valueOf convierte tipos primitivos a String
         String edadTexto = String.valueOf(25);
-        System.out.println("edadTexto = " + edadTexto);
+        System.out.println("edadTexto = " + edadTexto);*/
 
         short numShort = 10;
         byte numByte = (byte) numShort;
