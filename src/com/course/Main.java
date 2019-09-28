@@ -135,5 +135,21 @@ public class Main {
         //Retorna el caracter 0
         char c = "hola".charAt(0);
         System.out.println("c = " + c);
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("edad: ");
+        edad = Integer.parseInt(scanner.nextLine());
+        System.out.println("edad = " + edad);
+
+        System.out.println("caracter: ");
+        char caracter = scanner.nextLine().charAt(0);
+        System.out.println("caracter = " + caracter);
+
+        //valueOf convierte tipos primitivos a String
+        String edadTexto = String.valueOf(25);
+        System.out.println("edadTexto = " + edadTexto);
+
+
     }
 }
