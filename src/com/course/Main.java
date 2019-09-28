@@ -77,6 +77,18 @@ public class Main {
         System.out.println("valor máximo tipo double: " + Double.MAX_VALUE);
         System.out.println();
 
+        char charVar = 'a';
+        System.out.println("char: " + charVar);
+        System.out.println("bits tipo char: " + Character.SIZE);
+        System.out.println("bytes tipo char: " + Character.BYTES);
+        System.out.println("valor mínimo tipo char: " + Character.MIN_VALUE);
+        System.out.println("valor máximo tipo char: " + Character.MAX_VALUE);
+        System.out.println();
+
+        boolean booleanVar = false;
+        System.out.println("boolean: " + booleanVar);
+        System.out.println();
+
         int numeroDecimal = 10;
         System.out.println("numeroDecimal = " + numeroDecimal);
 
