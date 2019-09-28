@@ -60,5 +60,33 @@ public class Main {
         System.out.println("valor mínimo tipo long: " + Long.MIN_VALUE);
         System.out.println("valor máximo tipo long: " + Long.MAX_VALUE);
         System.out.println();
+
+        float floatVar = 9225807F;
+        System.out.println("float: " + floatVar);
+        System.out.println("bits tipo float: " + Float.SIZE);
+        System.out.println("bytes tipo float: " + Float.BYTES);
+        System.out.println("valor mínimo tipo float: " + Float.MIN_VALUE);
+        System.out.println("valor máximo tipo float: " + Float.MAX_VALUE);
+        System.out.println();
+
+        double doubleVar = 9225D;
+        System.out.println("double: " + doubleVar);
+        System.out.println("bits tipo double: " + Double.SIZE);
+        System.out.println("bytes tipo double: " + Double.BYTES);
+        System.out.println("valor mínimo tipo double: " + Double.MIN_VALUE);
+        System.out.println("valor máximo tipo double: " + Double.MAX_VALUE);
+        System.out.println();
+
+        int numeroDecimal = 10;
+        System.out.println("numeroDecimal = " + numeroDecimal);
+
+        int numeroOctal = 012;
+        System.out.println("numeroOctal = " + numeroOctal);
+
+        int numeroHexadecimal = 0xA;
+        System.out.println("numeroHexadecimal = " + numeroHexadecimal);
+
+        int numeroBinario = 0b1010;
+        System.out.println("numeroBinario = " + numeroBinario);
     }
 }
