@@ -14,6 +14,6 @@ public class OperadorTernario {
         numero2 = Integer.parseInt(scanner.nextLine());
 
         int numeroMayor = (numero1 > numero2) ? numero1 : numero2;
-        System.out.println("El número mayor es = " + numeroMayor);
+        System.out.println("El número mayor es: " + numeroMayor);
     }
 }
