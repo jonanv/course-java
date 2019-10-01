@@ -2,7 +2,7 @@ package com.course;
 
 import java.util.Scanner;
 
-public class ControlDeFlujo {
+public class ControlDeFlujoIf {
     public static void main(String[] args) {
         boolean condicion = false;
 
