@@ -35,5 +35,21 @@ public class Ciclos {
             }
             System.out.println("Imprimiendo número for: " + j);
         }
+        System.out.println();
+
+        inicio: for (int j = 0; j < 10; j++) {
+            if (j % 2 != 0) {
+                continue inicio;
+            }
+            System.out.println("Imprimiendo número for: " + j);
+        }
+        System.out.println();
+
+        inicio: for (int j = 0; j < 10; j++) {
+            if (j % 2 != 0) {
+                break inicio;
+            }
+            System.out.println("Imprimiendo número for: " + j);
+        }
     }
 }
