@@ -51,6 +51,5 @@ public class Ciclos {
             }
             System.out.println("Imprimiendo número for: " + j);
         }
-
     }
 }
